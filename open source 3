@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <updated>2015-06-08T14:57:53Z</updated>
+ <id>http://code.google.com/feeds/p/gerrit/issueupdates/basic</id>
+ <title>Issue updates for project gerrit on Google Code</title>
+ <link rel="alternate" type="text/html" href="http://code.google.com/p/gerrit/issues/list"/>
+ <link rel="self" type="application/atom+xml;type=feed" href="http://code.google.com/feeds/p/gerrit/issueupdates/basic"/>
+ 
+ 
+ <entry>
+ <updated>2015-06-08T14:57:53Z</updated>
+ <id>http://code.google.com/feeds/p/gerrit/issueupdates/basic/3414/2</id>
+ <link rel="alternate" type="text/html" href="http://code.google.com/p/gerrit/issues/detail?id=3414#c2" />
+ <title>Update 2 to issue 3414 (&quot;Rebase change with &#39;Change parent revision&#39; option is broken&quot;)</title>
+ <author>
+ <name>dborowitz@google.com</name>
+ </author>
+ <content type="html">&lt;pre&gt;Yeah, this needs better error handling.
+
+Error in POST /changes/X/revisions/Y/rebase
+java.io.IOException: The change could not be rebased due to a conflict during merge.
+	at com.google.gerrit.server.change.RebaseChange.rebase(RebaseChange.java:147)
+	at com.google.gerrit.server.change.Rebase.apply(Rebase.java:92)
+	at com.google.gerrit.server.change.Rebase.apply(Rebase.java:51)
+	at com.google.gerrit.httpd.restapi.RestApiServlet.service(RestApiServlet.java:326)
+ &lt;/pre&gt;
+ </content>
+</entry>
