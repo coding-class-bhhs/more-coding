@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <updated>2015-02-24T11:27:01Z</updated>
+ <id>http://code.google.com/feeds/p/gerrit/gitchanges/basic</id>
+ <title>Git commits to project gerrit (wiki repository) on Google Code</title>
+ <link rel="alternate" type="text/html" href="http://code.google.com/p/gerrit/source/list"/>
+ <link rel="self" type="application/atom+xml;type=feed" href="http://code.google.com/feeds/p/gerrit/gitchanges/basic"/>
+  <entry>
+ <updated>2015-02-24T11:27:01Z</updated>
+ <id>http://code.google.com/feeds/p/gerrit/gitchanges/basic/5f4919f724176a7a590acd2db32eed09b1c31f5d</id>
+ <link rel="alternate" type="text/html"
+ href="http://code.google.com/p/gerrit/source/detail?r=5f4919f724176a7a590acd2db32eed09b1c31f5d&amp;repo=wiki&amp;repo=wiki" />
+ <title>Revision 5f4919f724: Edited wiki page OutstandingTopics through web user interface.</title>
+ <author>
+ <name>luca.milanesio &lt;luca.milanesio&gt;</name>
+ </author>
+ <content type="html">
+ Changed Paths:&lt;br/&gt;
+ &#160;&#160;&#160;&#160;Modify&#160;&#160;&#160;&#160;/OutstandingTopics.wiki
+ 
+ &lt;br/&gt;
+ &lt;br/&gt;Edited wiki page OutstandingTopics through web user interface.
+ </content>
+</entry>
